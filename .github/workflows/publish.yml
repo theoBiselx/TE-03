@@ -15,3 +15,5 @@ jobs:
           port: ${{ secrets.ports }}
           protocol: ${{ secrets.protocol }}
           server-dir: ${{ secrets.server_dir }}
+          exclude: |
+            **/.git*/**
