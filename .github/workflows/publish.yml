@@ -14,3 +14,4 @@ jobs:
           password: ${{ secrets.password }}
           port: ${{ secrets.ports }}
           protocol: ${{ secrets.protocol }}
+          server-dir: ${{ secrets.server-dir }}
